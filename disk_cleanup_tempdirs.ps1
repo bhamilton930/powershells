@@ -1,9 +1,5 @@
 # set directories to clean.  
-$tempfolders = @( “C:\Windows\Temp\*”, “C:\Windows\Prefetch\*”, “C:\Documents and Settings\*\Local Settings\temp\*”, “C:\Users\*\Appdata\Local\Temp\*” )
+$tempfolders = @( â€œC:\Windows\Temp\*â€, â€œC:\Windows\Prefetch\*â€, â€œC:\Documents and Settings\*\Local Settings\temp\*â€, â€œC:\Users\*\Appdata\Local\Temp\*â€ )
 
 # force remove without user prompting
 Remove-Item $tempfolders -force -recurse
-
-# iu like big hairy ducks
-# and no one can stop me from freeing the mind 
-
